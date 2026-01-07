@@ -1740,34 +1740,9 @@ If acne or irritation looks very severe or infected, clearly but kindly suggest 
 Keep the tone supportive, simple and clear.
 ```
 *Source: Saman | AI ([@Samann_ai](https://x.com/Samann_ai)) - [Post](https://x.com/Samann_ai/status/1996230732470010064?s=20)*
-
----
-
-## 11. Resources
-
-- [Official Prompting Guide](https://blog.google/products/gemini/prompting-tips-nano-banana-pro/) - Learn how to structure your prompts effectively.
-- [How to prompt Nano Banana Pro](https://www.fofr.ai/nano-banana-pro-guide)
-
-## 12. Contributing
-
-Contributions are welcome! If you have an **awesome Nano Banana prompt**, please submit a Pull Request.
-
-1. Fork the repo.
-2. Create a new branch.
-3. Add your prompt in the correct category with the next available number.
-4. Submit PR.
-
-Please ensure you include the **Source** (link to the original creator) to give credit where it is due.
-
-## 13. Star History
-
-<a href="https://star-history.com/#ZeroLu/awesome-nanbanana-pro&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ZeroLu/awesome-nanobanana-pro&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ZeroLu/awesome-nanobanana-pro&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ZeroLu/awesome-nanobanana-pro&type=Date" />
-   
 ## 14. People image
+**Prompt:**
+```text
     {
   "intent": "a raw candid flash-style mirror photograph of a young woman using the exact face identity and visible text from the uploaded reference image.",
   "reference_image": {
@@ -1849,5 +1824,100 @@ Please ensure you include the **Source** (link to the original creator) to give 
     ]
   }
 }
+```
+## 14. People image
+	**Prompt:**
+	```text
+    Prompt:
+{
+  "prompt_type": "ultra_photorealistic_portrait",
+  "subject": {
+    "demographics": "Young woman, roughly 20s",
+    "hair": {
+      "color": "Copper red",
+      "style": "Long, voluminous, layered waves, side-parted",
+      "texture": "Silky, high sheen"
+    },
+    "eyes": "Piercing blue, sharp focus",
+    "skin": {
+      "tone": "Fair",
+      "texture": "High fidelity skin texture, natural pores visible",
+      "makeup": "glossy pink lips, defined mascara"
+    },
+    "expression": "Alluring, confident, direct eye contact over shoulder"
+  },
+  "attire": {
+    "clothing": "Tight-fitting charcoal grey mini dress, spaghetti straps, glittery metallic fabric, shimmering texture",
+    "accessories": [
+      "Light-colored smartwatch with white silicone band on left wrist",
+      "Small gold hoop earrings",
+      "Gold ring on finger"
+    ],
+    "nails": "Manicured, deep burgundy/dark red polish, almond shape"
+  },
+  "pose": {
+    "orientation": "Standing, body turned 3/4 away from camera",
+    "action": "Looking back over shoulder, right arm raised touching door frame, left hand holding edge of open door",
+    "framing": "Medium shot, knees up to head"
+  },
+  "environment": {
+    "location": "Modern bathroom interior",
+    "elements": [
+      "White panel door open",
+      "Modern white vanity sink",
+      "Large wall mirror with reflections",
+      "Glass shower screen",
+      "blurred toiletries in background"
+    ],
+    "colors": "Clean whites, soft greys, metallic silver accents"
+  },
+  "lighting": {
+    "type": "Direct artificial flash photography",
+    "quality": "High contrast, hard aesthetic lighting",
+    "effects": [
+      "Specular highlights on skin and dress",
+      "Defined drop shadow on door frame",
+      "Bright illumination of face"
+    ]
+  },
+  "camera_details": {
+    "camera_model": "Sony A7R IV or Canon EOS R5",
+    "lens": "35mm prime lens",
+    "settings": {
+      "aperture": "f/2.8",
+      "shutter_speed": "1/125s",
+      "iso": "400"
+    },
+    "style": "Flash photography aesthetic, raw photo, sharp focus on eyes, ultra-detailed 8k resolution, uncompressed"
+  }
+}
+```
+---
+
+## 11. Resources
+
+- [Official Prompting Guide](https://blog.google/products/gemini/prompting-tips-nano-banana-pro/) - Learn how to structure your prompts effectively.
+- [How to prompt Nano Banana Pro](https://www.fofr.ai/nano-banana-pro-guide)
+
+## 12. Contributing
+
+Contributions are welcome! If you have an **awesome Nano Banana prompt**, please submit a Pull Request.
+
+1. Fork the repo.
+2. Create a new branch.
+3. Add your prompt in the correct category with the next available number.
+4. Submit PR.
+
+Please ensure you include the **Source** (link to the original creator) to give credit where it is due.
+
+## 13. Star History
+
+<a href="https://star-history.com/#ZeroLu/awesome-nanbanana-pro&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ZeroLu/awesome-nanobanana-pro&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ZeroLu/awesome-nanobanana-pro&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ZeroLu/awesome-nanobanana-pro&type=Date" />
+   
+
  </picture>
 </a>
