@@ -1766,5 +1766,88 @@ Please ensure you include the **Source** (link to the original creator) to give 
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ZeroLu/awesome-nanobanana-pro&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ZeroLu/awesome-nanobanana-pro&type=Date" />
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ZeroLu/awesome-nanobanana-pro&type=Date" />
+   
+## 14. People image
+    {
+  "intent": "a raw candid flash-style mirror photograph of a young woman using the exact face identity and visible text from the uploaded reference image.",
+  "reference_image": {
+    "enabled": true,
+    "mode": "strict_face_identity_lock",
+    "instructions": [
+      "Use the uploaded image as the ONLY face reference",
+      "Preserve exact facial structure, proportions, eye shape, nose, lips, jawline, and skin texture",
+      "Do NOT beautify, stylize, or alter facial identity",
+      "Only lighting, angle, and expression intensity may adapt naturally"
+    ],
+    "extracted_text": {
+      "source": "uploaded_image",
+      "usage": "Include any visible text from the uploaded image exactly as-is, without modification, hallucination, or reinterpretation",
+      "placement_rule": "If text appears on mirror, walls, objects, or reflections, reproduce it in the same logical location"
+    }
+  },
+  "frame": {
+    "aspect_ratio": "4:5 vertical",
+    "composition": "mirror reflection, subject framed thighs-up on vanity counter, foreground clutter for depth",
+    "style_mode": ["snapshot_aesthetic", "raw_flash_photography", "analog_film_emulation"]
+  },
+  "subject": {
+    "identity": "young woman, early 20s, slender, messy loose-updo hair",
+    "wardrobe": "vintage silk slip dress with lace trim",
+    "pose": "seated casually on bathroom counter, leaning forward toward mirror, legs relaxed or crossed",
+    "expression": "detached cool look, lips slightly parted, gaze at reflection or camera"
+  },
+  "environment": {
+    "location": "compact tiled residential bathroom with vanity mirror",
+    "atmosphere": "intimate late-night private moment",
+    "details": "cluttered counter with cosmetics, brushes, toiletries",
+    "mirror_elements": "smudges, water spots, optional lipstick writing matching uploaded image text"
+  },
+  "camera": {
+    "sensor_format": "35mm film emulation (Kodak Gold 400 or Cinestill 800T)",
+    "lens": "35mm wide-angle point-and-shoot with slight distortion",
+    "aperture_depth_of_field": "f/5.6–f/8 for sharp subject and background",
+    "shutter_speed": "1/60s flash sync",
+    "iso": 800,
+    "camera_position": "eye-level toward mirror reflection"
+  },
+  "lighting": {
+    "type": "direct on-camera flash + ambient tungsten",
+    "key_light": "hard frontal flash with harsh shadows and specular highlights",
+    "fill_light": "warm dim tungsten cast",
+    "contrast": "high contrast with strong fall-off",
+    "color_temperature": "5500K flash + 3200K ambient"
+  },
+  "post_process": {
+    "color_grade": "vintage film, lifted blacks, green-tinted shadows, saturated reds",
+    "sharpness": "moderate with film grain and flash softness",
+    "vignette": "natural flash fall-off at edges"
+  },
+  "negative": {
+    "identity": [
+      "no face swapping",
+      "no face averaging",
+      "no identity drift",
+      "no beauty filter",
+      "no facial reconstruction"
+    ],
+    "style": [
+      "no studio lighting",
+      "no softbox",
+      "no 3D render",
+      "no cartoon",
+      "no anime",
+      "no illustration",
+      "no painting",
+      "no airbrushed skin"
+    ],
+    "content": [
+      "no clean minimalist spaces",
+      "no perfect posture",
+      "no happy expressions",
+      "no daylight",
+      "no LED aesthetics"
+    ]
+  }
+}
  </picture>
 </a>
