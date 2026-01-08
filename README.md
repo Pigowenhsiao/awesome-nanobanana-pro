@@ -1824,12 +1824,11 @@ Keep the tone supportive, simple and clear.
     ]
   }
 }
-```
+
 ## 14. People image
-	**Prompt:**
-	```text
-    Prompt:
-{
+**Prompt:**
+
+	{
   "prompt_type": "ultra_photorealistic_portrait",
   "subject": {
     "demographics": "Young woman, roughly 20s",
@@ -1891,6 +1890,7 @@ Keep the tone supportive, simple and clear.
     "style": "Flash photography aesthetic, raw photo, sharp focus on eyes, ultra-detailed 8k resolution, uncompressed"
   }
 }
+
 ```
 ---
 
